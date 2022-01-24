@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "./build",
+        "composite": true,
+        "target": "es2020",
+        "module": "CommonJS", // which system for the program AMD, UMD, System, CommonJ
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx"
+    },
+    "include": ["src/**/*", "tests/**/*"],
+    "exclude": ["node_modules"] // which files to skip
+}
